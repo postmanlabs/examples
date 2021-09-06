@@ -1,0 +1,30 @@
+var schema = {
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "author": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "yearPublished": {
+        "type": "number"
+      },
+      "checkedOut": {
+        "type": "boolean"
+      },
+      "createdAt": {
+        "type": "string"
+      }
+    }
+  }
+}
